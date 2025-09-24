@@ -72,11 +72,8 @@
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
-  <value name="xml">restV2/HG_AuthManager:auth/signup
-restV2/HG_AuthManager:auth/signin
-restV2/HG_AuthManager:auth/getProfileInfo
-restV2/HG_AuthManager:auth/initiateOtp
-restV2/HG_AuthManager:auth/verifyOtp</value>
+  <value name="xml">restV2/HG_Finora:http/getCategory
+restV2/HG_Finora:http/getTransactions</value>
   <record name="type" javaclass="com.wm.util.Values">
     <value name="node_type">unknown</value>
     <value name="node_subtype">unknown</value>
@@ -96,11 +93,9 @@ restV2/HG_AuthManager:auth/verifyOtp</value>
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
-  <value name="xml">registerUser
-loginUser
-getProfileInfo
-initiateOtp
-verifyOtp</value>
+  <value name="xml">getCategory
+getTransactions
+insertTransaction</value>
   <record name="type" javaclass="com.wm.util.Values">
     <value name="node_type">unknown</value>
     <value name="node_subtype">unknown</value>
@@ -631,7 +626,7 @@ verifyOtp</value>
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
-  <value name="xml">HG_AuthManager</value>
+  <value name="xml">HG_Finora</value>
   <record name="type" javaclass="com.wm.util.Values">
     <value name="node_type">field</value>
     <value name="node_subtype">unknown</value>
