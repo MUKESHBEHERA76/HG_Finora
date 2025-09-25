@@ -117,7 +117,7 @@
           <value name="field_password">false</value>
         </record>
         <value name="is_public">false</value>
-        <value name="field_name">categoryName</value>
+        <value name="field_name">category_name</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
         <array name="field_options" type="value" depth="1">
@@ -136,7 +136,7 @@
           <value name="field_password">false</value>
         </record>
         <value name="is_public">false</value>
-        <value name="field_name">categoryType</value>
+        <value name="field_name">category_type</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
         <array name="field_options" type="value" depth="1">
@@ -155,7 +155,7 @@
           <value name="field_password">false</value>
         </record>
         <value name="is_public">false</value>
-        <value name="field_name">shortNote</value>
+        <value name="field_name">short_note</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
         <array name="field_options" type="value" depth="1">
@@ -174,7 +174,7 @@
           <value name="field_password">false</value>
         </record>
         <value name="is_public">false</value>
-        <value name="field_name">date</value>
+        <value name="field_name">transaction_date</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
         <array name="field_options" type="value" depth="1">
@@ -212,7 +212,7 @@
           <value name="field_password">false</value>
         </record>
         <value name="is_public">false</value>
-        <value name="field_name">imageUrl</value>
+        <value name="field_name">category_image_url</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
         <array name="field_options" type="value" depth="1">
@@ -284,22 +284,7 @@
 <MAPCOPY FROM="/tnID;1;0" TO="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/InputData;2;0/tnID;1;0">
 </MAPCOPY>
 
-<MAPCOPY FROM="/imageUrl;1;0" TO="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/InputData;2;0/category_image_url;1;0">
-</MAPCOPY>
-
 <MAPCOPY FROM="/amount;1;0" TO="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/InputData;2;0/amount;1;0">
-</MAPCOPY>
-
-<MAPCOPY FROM="/date;1;0" TO="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/InputData;2;0/transaction_date;1;0">
-</MAPCOPY>
-
-<MAPCOPY FROM="/shortNote;1;0" TO="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/InputData;2;0/short_note;1;0">
-</MAPCOPY>
-
-<MAPCOPY FROM="/categoryType;1;0" TO="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/InputData;2;0/category_type;1;0">
-</MAPCOPY>
-
-<MAPCOPY FROM="/categoryName;1;0" TO="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/InputData;2;0/category_name;1;0">
 </MAPCOPY>
 
 <MAPDELETE FIELD="/email;1;0">
@@ -311,22 +296,37 @@
 <MAPDELETE FIELD="/application;1;0">
 </MAPDELETE>
 
-<MAPDELETE FIELD="/categoryName;1;0">
-</MAPDELETE>
-
-<MAPDELETE FIELD="/categoryType;1;0">
-</MAPDELETE>
-
-<MAPDELETE FIELD="/shortNote;1;0">
-</MAPDELETE>
-
-<MAPDELETE FIELD="/date;1;0">
-</MAPDELETE>
-
 <MAPDELETE FIELD="/amount;1;0">
 </MAPDELETE>
 
-<MAPDELETE FIELD="/imageUrl;1;0">
+<MAPCOPY FROM="/category_image_url;1;0" TO="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/InputData;2;0/category_image_url;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/transaction_date;1;0" TO="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/InputData;2;0/transaction_date;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/category_type;1;0" TO="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/InputData;2;0/category_type;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/category_name;1;0" TO="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/InputData;2;0/category_name;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/short_note;1;0" TO="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/InputData;2;0/short_note;1;0">
+</MAPCOPY>
+
+<MAPDELETE FIELD="/category_name;1;0">
+</MAPDELETE>
+
+<MAPDELETE FIELD="/category_type;1;0">
+</MAPDELETE>
+
+<MAPDELETE FIELD="/short_note;1;0">
+</MAPDELETE>
+
+<MAPDELETE FIELD="/transaction_date;1;0">
+</MAPDELETE>
+
+<MAPDELETE FIELD="/category_image_url;1;0">
 </MAPDELETE>
 </MAP>
 
@@ -1130,6 +1130,9 @@
 
 <MAPCOPY FROM="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/InputData;2;0/category_name;1;0" TO="/updateTransactionInput;2;0/category_name;1;0">
 </MAPCOPY>
+
+<MAPCOPY FROM="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/InputData;2;0/category_type;1;0" TO="/updateTransactionInput;2;0/category_type;1;0">
+</MAPCOPY>
 </MAP>
 
 <MAP MODE="OUTPUT">
@@ -1157,6 +1160,17 @@
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
         <array name="rec_fields" type="record" depth="1">
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">unknown</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">category_type</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
           <record javaclass="com.wm.util.Values">
             <value name="node_type">unknown</value>
             <value name="node_subtype">unknown</value>
@@ -1914,6 +1928,7 @@
 </MAPDELETE>
 </MAP>
 </INVOKE>
+</SEQUENCE>
 
 <INVOKE NAME="$default" TIMEOUT="" SERVICE="pub.flow:throwExceptionForRetry" VALIDATE-IN="$none" VALIDATE-OUT="$none">
   <COMMENT>--Throw error --</COMMENT>
@@ -2073,17 +2088,6 @@
         </array>
         <value name="modifiable">true</value>
       </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">unknown</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
-        <value name="field_name">prettyPrint</value>
-        <value name="field_type">string</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-      </record>
     </array>
     <value name="modifiable">true</value>
   </record>
@@ -2114,7 +2118,6 @@
 </MAPDELETE>
 </MAP>
 </INVOKE>
-</SEQUENCE>
 </BRANCH>
 </SEQUENCE>
 
