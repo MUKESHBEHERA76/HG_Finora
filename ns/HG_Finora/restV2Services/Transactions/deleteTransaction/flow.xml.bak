@@ -902,6 +902,139 @@
 </MAP>
 
 <MAP MODE="OUTPUT">
+  <MAPTARGET>
+
+<Values version="2.0">
+  <record name="xml" javaclass="com.wm.util.Values">
+    <value name="node_type">record</value>
+    <value name="node_subtype">unknown</value>
+    <value name="is_public">false</value>
+    <value name="field_type">record</value>
+    <value name="field_dim">0</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+    <array name="rec_fields" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">deleteTransactionInput</value>
+        <value name="field_type">record</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <array name="rec_fields" type="record" depth="1">
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">unknown</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">tn_id</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">unknown</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">user_id</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+        </array>
+        <value name="modifiable">true</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">$connectionName</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">LocalPipelineAttributes</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">HG_Finora.docs:LocalPipelineAttributes</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">getUserIdOutput</value>
+        <value name="field_type">record</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <array name="rec_fields" type="record" depth="1">
+        </array>
+        <value name="modifiable">true</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">deleteTransactionOutput</value>
+        <value name="field_type">record</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <array name="rec_fields" type="record" depth="1">
+        </array>
+        <value name="modifiable">true</value>
+      </record>
+    </array>
+    <value name="modifiable">true</value>
+  </record>
+</Values>
+</MAPTARGET>
+  <MAPSOURCE>
+
+<Values version="2.0">
+  <record name="xml" javaclass="com.wm.util.Values">
+    <value name="node_type">record</value>
+    <value name="node_subtype">unknown</value>
+    <value name="is_public">false</value>
+    <value name="field_name">deleteTransactionOutput</value>
+    <value name="field_type">record</value>
+    <value name="field_dim">0</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+    <array name="rec_fields" type="record" depth="1">
+    </array>
+    <value name="modifiable">true</value>
+  </record>
+</Values>
+</MAPSOURCE>
+
+  <!-- nodes -->
+
+<MAPDELETE FIELD="/$connectionName;1;0">
+</MAPDELETE>
+
+<MAPDELETE FIELD="/deleteTransactionInput;2;0">
+</MAPDELETE>
 </MAP>
 </INVOKE>
 
@@ -930,31 +1063,6 @@
     <value name="form_qualified">false</value>
     <value name="is_global">false</value>
     <array name="rec_fields" type="record" depth="1">
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">record</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
-        <value name="field_name">deleteTransactionInput</value>
-        <value name="field_type">record</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-        <array name="rec_fields" type="record" depth="1">
-        </array>
-        <value name="modifiable">true</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">unknown</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
-        <value name="field_name">$connectionName</value>
-        <value name="field_type">string</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-      </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
@@ -1311,31 +1419,6 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">deleteTransactionInput</value>
-        <value name="field_type">record</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-        <array name="rec_fields" type="record" depth="1">
-        </array>
-        <value name="modifiable">true</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">unknown</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
-        <value name="field_name">$connectionName</value>
-        <value name="field_type">string</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">record</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
         <value name="field_name">LocalPipelineAttributes</value>
         <value name="field_type">recref</value>
         <value name="field_dim">0</value>
@@ -1438,31 +1521,6 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">deleteTransactionInput</value>
-        <value name="field_type">record</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-        <array name="rec_fields" type="record" depth="1">
-        </array>
-        <value name="modifiable">true</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">unknown</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
-        <value name="field_name">$connectionName</value>
-        <value name="field_type">string</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">record</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
         <value name="field_name">LocalPipelineAttributes</value>
         <value name="field_type">recref</value>
         <value name="field_dim">0</value>
@@ -1471,17 +1529,6 @@
         <value name="is_global">false</value>
         <value name="modifiable">true</value>
         <value name="rec_ref">HG_Finora.docs:LocalPipelineAttributes</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">unknown</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
-        <value name="field_name">prettyPrint</value>
-        <value name="field_type">string</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -1510,6 +1557,17 @@
         <array name="rec_fields" type="record" depth="1">
         </array>
         <value name="modifiable">true</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">prettyPrint</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">field</value>
@@ -1682,15 +1740,14 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">deleteTransactionInput</value>
-        <value name="field_type">record</value>
+        <value name="field_name">LocalPipelineAttributes</value>
+        <value name="field_type">recref</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
-        <array name="rec_fields" type="record" depth="1">
-        </array>
         <value name="modifiable">true</value>
+        <value name="rec_ref">HG_Finora.docs:LocalPipelineAttributes</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">unknown</value>
@@ -1702,30 +1759,6 @@
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">unknown</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
-        <value name="field_name">$connectionName</value>
-        <value name="field_type">string</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">record</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
-        <value name="field_name">LocalPipelineAttributes</value>
-        <value name="field_type">recref</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-        <value name="modifiable">true</value>
-        <value name="rec_ref">HG_Finora.docs:LocalPipelineAttributes</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -1816,31 +1849,6 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">deleteTransactionInput</value>
-        <value name="field_type">record</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-        <array name="rec_fields" type="record" depth="1">
-        </array>
-        <value name="modifiable">true</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">unknown</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
-        <value name="field_name">$connectionName</value>
-        <value name="field_type">string</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">record</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
         <value name="field_name">LocalPipelineAttributes</value>
         <value name="field_type">recref</value>
         <value name="field_dim">0</value>
@@ -1849,17 +1857,6 @@
         <value name="is_global">false</value>
         <value name="modifiable">true</value>
         <value name="rec_ref">HG_Finora.docs:LocalPipelineAttributes</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">unknown</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
-        <value name="field_name">prettyPrint</value>
-        <value name="field_type">string</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -1888,6 +1885,17 @@
         <array name="rec_fields" type="record" depth="1">
         </array>
         <value name="modifiable">true</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">prettyPrint</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -1924,31 +1932,6 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">deleteTransactionInput</value>
-        <value name="field_type">record</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-        <array name="rec_fields" type="record" depth="1">
-        </array>
-        <value name="modifiable">true</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">unknown</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
-        <value name="field_name">$connectionName</value>
-        <value name="field_type">string</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">record</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
         <value name="field_name">LocalPipelineAttributes</value>
         <value name="field_type">recref</value>
         <value name="field_dim">0</value>
@@ -1957,17 +1940,6 @@
         <value name="is_global">false</value>
         <value name="modifiable">true</value>
         <value name="rec_ref">HG_Finora.docs:LocalPipelineAttributes</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">unknown</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
-        <value name="field_name">prettyPrint</value>
-        <value name="field_type">string</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -1996,6 +1968,17 @@
         <array name="rec_fields" type="record" depth="1">
         </array>
         <value name="modifiable">true</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">prettyPrint</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -2267,31 +2250,6 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">deleteTransactionInput</value>
-        <value name="field_type">record</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-        <array name="rec_fields" type="record" depth="1">
-        </array>
-        <value name="modifiable">true</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">unknown</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
-        <value name="field_name">$connectionName</value>
-        <value name="field_type">string</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">record</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
         <value name="field_name">LocalPipelineAttributes</value>
         <value name="field_type">recref</value>
         <value name="field_dim">0</value>
@@ -2300,17 +2258,6 @@
         <value name="is_global">false</value>
         <value name="modifiable">true</value>
         <value name="rec_ref">HG_Finora.docs:LocalPipelineAttributes</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">unknown</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
-        <value name="field_name">prettyPrint</value>
-        <value name="field_type">string</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -2339,6 +2286,17 @@
         <array name="rec_fields" type="record" depth="1">
         </array>
         <value name="modifiable">true</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">prettyPrint</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -2418,31 +2376,6 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">deleteTransactionInput</value>
-        <value name="field_type">record</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-        <array name="rec_fields" type="record" depth="1">
-        </array>
-        <value name="modifiable">true</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">unknown</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
-        <value name="field_name">$connectionName</value>
-        <value name="field_type">string</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">record</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
         <value name="field_name">LocalPipelineAttributes</value>
         <value name="field_type">recref</value>
         <value name="field_dim">0</value>
@@ -2451,17 +2384,6 @@
         <value name="is_global">false</value>
         <value name="modifiable">true</value>
         <value name="rec_ref">HG_Finora.docs:LocalPipelineAttributes</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">unknown</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
-        <value name="field_name">prettyPrint</value>
-        <value name="field_type">string</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -2492,18 +2414,15 @@
         <value name="modifiable">true</value>
       </record>
       <record javaclass="com.wm.util.Values">
-        <value name="node_type">record</value>
+        <value name="node_type">unknown</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">getCategoriesOutput</value>
-        <value name="field_type">record</value>
+        <value name="field_name">prettyPrint</value>
+        <value name="field_type">string</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
-        <array name="rec_fields" type="record" depth="1">
-        </array>
-        <value name="modifiable">true</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -2528,6 +2447,20 @@
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">getCategoriesOutput</value>
+        <value name="field_type">record</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <array name="rec_fields" type="record" depth="1">
+        </array>
+        <value name="modifiable">true</value>
       </record>
     </array>
     <value name="modifiable">true</value>
