@@ -125,20 +125,11 @@
 
 <Values version="2.0">
   <array name="xml" type="value" depth="1">
-    <value>HG_MoneyTracker.LogInUser.provider.logInUser_.services:loginUser</value>
-    <value>HG_MoneyTracker.Category.provider.category_.services:createCategory</value>
-    <value>HG_MoneyTracker.Category.provider.category_.services:deleteCategory</value>
-    <value>HG_MoneyTracker.Category.provider.category_.services:getCategory</value>
-    <value>HG_MoneyTracker.Dashboard.provider.getDashboardInfo_.services:getDashboardInfo</value>
-    <value>HG_MoneyTracker.ForgetPassword.provider.forgetPassword_.services:forgetPassword</value>
-    <value>HG_MoneyTracker.ForgetPassword.provider.forgetPassword_.services:sendOtp</value>
-    <value>HG_MoneyTracker.LogInUser.provider.logInUser_.services:loginUser</value>
-    <value>HG_MoneyTracker.RegisterUser.provider.registerUser_.services:registerUser</value>
-    <value>HG_MoneyTracker.SendOTP.provider.sendOTP_.services:initiateOTP</value>
-    <value>HG_MoneyTracker.Transactions.provider.transactions_.services.insertTransaction:insertTransaction</value>
-    <value>HG_MoneyTracker.Transactions.provider.transactions_.services.getTransaction:getTransaction</value>
-    <value>HG_MoneyTracker.Transactions.provider.transactions_.services.deleteTransaction:deleteTransaction</value>
-    <value>HG_MoneyTracker.UpdateProfileUrl.provider.updateProfileUrl_.services:updateProfileUrl</value>
+    <value>HG_Finora.restV2Services.Category:getCategories</value>
+    <value>HG_Finora.restV2Services.Transactions:deleteTransaction</value>
+    <value>HG_Finora.restV2Services.Transactions:editTransaction</value>
+    <value>HG_Finora.restV2Services.Transactions:getTransactions</value>
+    <value>HG_Finora.restV2Services.Transactions:insertTransaction</value>
   </array>
   <record name="type" javaclass="com.wm.util.Values">
     <value name="node_type">unknown</value>

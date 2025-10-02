@@ -796,7 +796,7 @@
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
-  <value name="xml">Oops! No user found with the provided details.</value>
+  <value name="xml">Oops! No user found with the provided details or the user is in active.</value>
   <record name="type" javaclass="com.wm.util.Values">
     <value name="node_type">field</value>
     <value name="node_subtype">unknown</value>

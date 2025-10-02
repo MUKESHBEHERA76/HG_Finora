@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <record name="getCategory" javaclass="com.wm.util.Values">
+    <value name="urlPath">restV2/HG_Finora:http/getCategory</value>
+    <record name="portMap" javaclass="com.wm.util.Values">
+    </record>
+  </record>
+  <record name="getTransactions" javaclass="com.wm.util.Values">
+    <value name="urlPath">restV2/HG_Finora:http/getTransactions</value>
+    <record name="portMap" javaclass="com.wm.util.Values">
+    </record>
+  </record>
+  <record name="insertTransaction" javaclass="com.wm.util.Values">
+    <value name="urlPath">restV2/HG_Finora:http/insertTransaction</value>
+    <record name="portMap" javaclass="com.wm.util.Values">
+    </record>
+  </record>
+  <record name="editTransaction" javaclass="com.wm.util.Values">
+    <value name="urlPath">restV2/HG_Finora:http/editTransaction</value>
+    <record name="portMap" javaclass="com.wm.util.Values">
+    </record>
+  </record>
+  <record name="deleteTransaction" javaclass="com.wm.util.Values">
+    <value name="urlPath">restV2/HG_Finora:http/deleteTransaction</value>
+    <record name="portMap" javaclass="com.wm.util.Values">
+    </record>
+  </record>
+</Values>
