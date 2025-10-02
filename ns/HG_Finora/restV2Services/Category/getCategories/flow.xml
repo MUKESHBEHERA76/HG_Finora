@@ -720,10 +720,10 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/jdbcConnection;1;0" TO="/$connectionName;1;0">
+<MAPCOPY FROM="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/InputData;2;0/userID;1;0" TO="/getCategoriesInput;2;0/user_id;1;0">
 </MAPCOPY>
 
-<MAPCOPY FROM="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/InputData;2;0/userID;1;0" TO="/getCategoriesInput;2;0/user_id;1;0">
+<MAPCOPY FROM="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/configProperty;2;0/jdbcConnection;1;0" TO="/$connectionName;1;0">
 </MAPCOPY>
 </MAP>
 
