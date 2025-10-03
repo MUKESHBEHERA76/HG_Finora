@@ -26,4 +26,29 @@
     <record name="portMap" javaclass="com.wm.util.Values">
     </record>
   </record>
+  <record name="getDashboardInfo" javaclass="com.wm.util.Values">
+    <value name="urlPath">restV2/HG_Finora:http/getDashboardInfo</value>
+    <record name="portMap" javaclass="com.wm.util.Values">
+    </record>
+  </record>
+  <record name="uploadDoc" javaclass="com.wm.util.Values">
+    <value name="urlPath">restV2/HG_Finora:http/uploadDoc</value>
+    <record name="portMap" javaclass="com.wm.util.Values">
+    </record>
+  </record>
+  <record name="fetchDoc" javaclass="com.wm.util.Values">
+    <value name="urlPath">restV2/HG_Finora:http/fetchDoc</value>
+    <record name="portMap" javaclass="com.wm.util.Values">
+    </record>
+  </record>
+  <record name="deleteDoc" javaclass="com.wm.util.Values">
+    <value name="urlPath">restV2/HG_Finora:http/deleteDoc</value>
+    <record name="portMap" javaclass="com.wm.util.Values">
+    </record>
+  </record>
+  <record name="updateDoc" javaclass="com.wm.util.Values">
+    <value name="urlPath">restV2/HG_Finora:http/updateDoc</value>
+    <record name="portMap" javaclass="com.wm.util.Values">
+    </record>
+  </record>
 </Values>

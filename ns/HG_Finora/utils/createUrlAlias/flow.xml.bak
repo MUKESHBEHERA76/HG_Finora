@@ -76,7 +76,8 @@
 getTransactions
 insertTransaction
 editTransaction
-deleteTransaction</value>
+deleteTransaction
+getDashboardInfo</value>
   <record name="type" javaclass="com.wm.util.Values">
     <value name="node_type">unknown</value>
     <value name="node_subtype">unknown</value>
@@ -100,7 +101,8 @@ deleteTransaction</value>
 restV2/HG_Finora:http/getTransactions
 restV2/HG_Finora:http/insertTransaction
 restV2/HG_Finora:http/editTransaction
-restV2/HG_Finora:http/deleteTransaction</value>
+restV2/HG_Finora:http/deleteTransaction
+restV2/HG_Finora:http/getDashboardInfo</value>
   <record name="type" javaclass="com.wm.util.Values">
     <value name="node_type">unknown</value>
     <value name="node_subtype">unknown</value>
