@@ -135,6 +135,10 @@
     <value>HG_Finora.restV2Services.Documents:updateDocuments</value>
     <value>HG_Finora.restV2Services.Documents:fetchDocuments</value>
     <value>HG_Finora.restV2Services.Documents:deleteDocuments</value>
+    <value>HG_Finora.restV2Services.Loans:registerLoan</value>
+    <value>HG_Finora.restV2Services.Loans:deleteLoan</value>
+    <value>HG_Finora.restV2Services.Loans:getAllLoans</value>
+    <value>HG_Finora.restV2Services.Loans:forcloseLoan</value>
   </array>
   <record name="type" javaclass="com.wm.util.Values">
     <value name="node_type">unknown</value>

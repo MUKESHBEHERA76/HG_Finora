@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FLOW VERSION="3.0" CLEANUP="true">
-  <COMMENT>--initialize params--</COMMENT>
 
   <!-- nodes -->
 
@@ -99,7 +98,159 @@
           <value name="field_password">false</value>
         </record>
         <value name="is_public">false</value>
-        <value name="field_name">documentId</value>
+        <value name="field_name">loan_reference_number</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <array name="field_options" type="value" depth="1">
+        </array>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="node_comment"></value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_usereditable">true</value>
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+        </record>
+        <value name="is_public">false</value>
+        <value name="field_name">loan_start_date</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <array name="field_options" type="value" depth="1">
+        </array>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="node_comment"></value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_usereditable">true</value>
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+        </record>
+        <value name="is_public">false</value>
+        <value name="field_name">tenure_in_months</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <array name="field_options" type="value" depth="1">
+        </array>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="node_comment"></value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_usereditable">true</value>
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+        </record>
+        <value name="is_public">false</value>
+        <value name="field_name">emi_amount</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <array name="field_options" type="value" depth="1">
+        </array>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="node_comment"></value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_usereditable">true</value>
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+        </record>
+        <value name="is_public">false</value>
+        <value name="field_name">total_money_taken</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <array name="field_options" type="value" depth="1">
+        </array>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="node_comment"></value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_usereditable">true</value>
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+        </record>
+        <value name="is_public">false</value>
+        <value name="field_name">emi_date</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <array name="field_options" type="value" depth="1">
+        </array>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="node_comment"></value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_usereditable">true</value>
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+        </record>
+        <value name="is_public">false</value>
+        <value name="field_name">loanDescription</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <array name="field_options" type="value" depth="1">
+        </array>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="node_comment"></value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_usereditable">true</value>
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+        </record>
+        <value name="is_public">false</value>
+        <value name="field_name">loanFileName</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <array name="field_options" type="value" depth="1">
+        </array>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="node_comment"></value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_usereditable">true</value>
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+        </record>
+        <value name="is_public">false</value>
+        <value name="field_name">base64LoanDocContent</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
         <array name="field_options" type="value" depth="1">
@@ -122,7 +273,47 @@
 <MAPCOPY FROM="/application;1;0" TO="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/InputData;2;0/application;1;0">
 </MAPCOPY>
 
-<MAPCOPY FROM="/documentId;1;0" TO="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/InputData;2;0/documentId;1;0">
+<MAPINVOKE SERVICE="pub.utils:generateUUID" VALIDATE-IN="$none" VALIDATE-OUT="$none" INVOKE-ORDER="0">
+
+  <!-- nodes -->
+
+<MAP MODE="INVOKEINPUT">
+</MAP>
+
+<MAP MODE="INVOKEOUTPUT">
+
+  <!-- nodes -->
+
+<MAPCOPY FROM="/UUID;1;0" TO="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/uuid;1;0">
+</MAPCOPY>
+</MAP>
+</MAPINVOKE>
+
+<MAPCOPY FROM="/loanFileName;1;0" TO="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/InputData;2;0/fileName;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/base64LoanDocContent;1;0" TO="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/InputData;2;0/fileBase64Content;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/loan_reference_number;1;0" TO="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/InputData;2;0/loan_reference_number;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/loan_start_date;1;0" TO="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/InputData;2;0/loan_start_date;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/tenure_in_months;1;0" TO="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/InputData;2;0/tenure_in_months;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/emi_amount;1;0" TO="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/InputData;2;0/emi_amount;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/total_money_taken;1;0" TO="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/InputData;2;0/total_money_taken;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/emi_date;1;0" TO="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/InputData;2;0/emi_date;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/loanDescription;1;0" TO="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/InputData;2;0/loanDescription;1;0">
 </MAPCOPY>
 
 <MAPDELETE FIELD="/email;1;0">
@@ -131,10 +322,34 @@
 <MAPDELETE FIELD="/application;1;0">
 </MAPDELETE>
 
-<MAPDELETE FIELD="/documentId;1;0">
+<MAPDELETE FIELD="/loan_reference_number;1;0">
 </MAPDELETE>
 
-<MAPINVOKE SERVICE="HG_Utilities.util.properties:getProperty" VALIDATE-IN="$none" VALIDATE-OUT="$none" INVOKE-ORDER="0">
+<MAPDELETE FIELD="/loan_start_date;1;0">
+</MAPDELETE>
+
+<MAPDELETE FIELD="/tenure_in_months;1;0">
+</MAPDELETE>
+
+<MAPDELETE FIELD="/emi_amount;1;0">
+</MAPDELETE>
+
+<MAPDELETE FIELD="/total_money_taken;1;0">
+</MAPDELETE>
+
+<MAPDELETE FIELD="/emi_date;1;0">
+</MAPDELETE>
+
+<MAPDELETE FIELD="/loanDescription;1;0">
+</MAPDELETE>
+
+<MAPDELETE FIELD="/loanFileName;1;0">
+</MAPDELETE>
+
+<MAPDELETE FIELD="/base64LoanDocContent;1;0">
+</MAPDELETE>
+
+<MAPINVOKE SERVICE="pub.date:getCurrentDateString" VALIDATE-IN="$none" VALIDATE-OUT="$none" INVOKE-ORDER="0">
 
   <!-- nodes -->
 
@@ -142,26 +357,18 @@
 
   <!-- nodes -->
 
-<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/key;1;0">
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/pattern;1;0">
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
-  <value name="xml">HG_Finora.jdbc.connection.name</value>
+  <value name="xml">yyyy-MM-dd HH:mm:ss.SSS</value>
   <record name="type" javaclass="com.wm.util.Values">
-    <value name="node_type">record</value>
+    <value name="node_type">field</value>
     <value name="node_subtype">unknown</value>
-    <value name="node_comment"></value>
-    <record name="node_hints" javaclass="com.wm.util.Values">
-      <value name="field_usereditable">true</value>
-      <value name="field_largerEditor">false</value>
-      <value name="field_password">false</value>
-    </record>
     <value name="is_public">false</value>
-    <value name="field_name">key</value>
+    <value name="field_name">pattern</value>
     <value name="field_type">string</value>
     <value name="field_dim">0</value>
-    <array name="field_options" type="value" depth="1">
-    </array>
     <value name="nillable">true</value>
     <value name="form_qualified">false</value>
     <value name="is_global">false</value>
@@ -175,14 +382,14 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/value;1;0" TO="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/configProperty;2;0/jdbcConnection;1;0">
+<MAPCOPY FROM="/value;1;0" TO="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/currentDateString;1;0">
 </MAPCOPY>
 </MAP>
 </MAPINVOKE>
 </MAP>
 
 <SEQUENCE TIMEOUT="" EXIT-ON="FAILURE" FORM="TRY">
-  <COMMENT>--Try block--</COMMENT>
+  <COMMENT>--Try Block--</COMMENT>
 
   <!-- nodes -->
 
@@ -746,13 +953,206 @@
 </INVOKE>
 </BRANCH>
 
-<SEQUENCE TIMEOUT="" EXIT-ON="FAILURE">
-  <COMMENT>--Check if the loan is belongs to loan or Bond--</COMMENT>
+<MAP TIMEOUT="" MODE="STANDALONE">
+  <COMMENT>--Build document upload payload--</COMMENT>
+  <MAPTARGET>
+
+<Values version="2.0">
+  <record name="xml" javaclass="com.wm.util.Values">
+    <value name="node_type">record</value>
+    <value name="node_subtype">unknown</value>
+    <value name="is_public">false</value>
+    <value name="field_type">record</value>
+    <value name="field_dim">0</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+    <array name="rec_fields" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">LocalPipelineAttributes</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">HG_Finora.docs:LocalPipelineAttributes</value>
+      </record>
+    </array>
+    <value name="modifiable">true</value>
+  </record>
+</Values>
+</MAPTARGET>
+  <MAPSOURCE>
+
+<Values version="2.0">
+  <record name="xml" javaclass="com.wm.util.Values">
+    <value name="node_type">record</value>
+    <value name="node_subtype">unknown</value>
+    <value name="is_public">false</value>
+    <value name="field_type">record</value>
+    <value name="field_dim">0</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+    <array name="rec_fields" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">LocalPipelineAttributes</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">HG_Finora.docs:LocalPipelineAttributes</value>
+      </record>
+    </array>
+    <value name="modifiable">true</value>
+  </record>
+</Values>
+</MAPSOURCE>
 
   <!-- nodes -->
 
-<INVOKE TIMEOUT="" SERVICE="HG_Finora.adapters:getSingleLoanDetails" VALIDATE-IN="$none" VALIDATE-OUT="$none">
-  <COMMENT></COMMENT>
+<MAPINVOKE SERVICE="pub.compress:compressData" VALIDATE-IN="$none" VALIDATE-OUT="$none" INVOKE-ORDER="0">
+
+  <!-- nodes -->
+
+<MAP MODE="INVOKEINPUT">
+
+  <!-- nodes -->
+
+<MAPCOPY FROM="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/InputData;2;0/fileBase64Content;1;0" TO="/data;2;0/string;1;0">
+</MAPCOPY>
+
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/compressionScheme;1;0">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <value name="xml">gzip</value>
+  <record name="type" javaclass="com.wm.util.Values">
+    <value name="node_type">field</value>
+    <value name="node_subtype">unknown</value>
+    <value name="is_public">false</value>
+    <value name="field_name">compressionScheme</value>
+    <value name="field_type">string</value>
+    <value name="field_dim">0</value>
+    <array name="field_options" type="value" depth="1">
+      <value>gzip</value>
+      <value>deflate</value>
+    </array>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+  </record>
+</Values>
+</DATA>
+</MAPSET>
+
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/loadAs;1;0">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <value name="xml">bytes</value>
+  <record name="type" javaclass="com.wm.util.Values">
+    <value name="node_type">field</value>
+    <value name="node_subtype">unknown</value>
+    <value name="is_public">false</value>
+    <value name="field_name">loadAs</value>
+    <value name="field_type">string</value>
+    <value name="field_dim">0</value>
+    <array name="field_options" type="value" depth="1">
+      <value>bytes</value>
+      <value>stream</value>
+    </array>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+  </record>
+</Values>
+</DATA>
+</MAPSET>
+</MAP>
+
+<MAP MODE="INVOKEOUTPUT">
+
+  <!-- nodes -->
+
+<MAPCOPY FROM="/compressedData;2;0/bytes;3;0" TO="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/fileContentInBytes;3;0">
+</MAPCOPY>
+</MAP>
+</MAPINVOKE>
+
+<MAPINVOKE SERVICE="pub.date:dateTimeFormat" VALIDATE-IN="$none" VALIDATE-OUT="$none" INVOKE-ORDER="0">
+
+  <!-- nodes -->
+
+<MAP MODE="INVOKEINPUT">
+
+  <!-- nodes -->
+
+<MAPCOPY FROM="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/InputData;2;0/loan_start_date;1;0" TO="/inString;1;0">
+</MAPCOPY>
+
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/currentPattern;1;0">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <value name="xml">yyyy-MM-dd</value>
+  <record name="type" javaclass="com.wm.util.Values">
+    <value name="node_type">field</value>
+    <value name="node_subtype">unknown</value>
+    <value name="is_public">false</value>
+    <value name="field_name">currentPattern</value>
+    <value name="field_type">string</value>
+    <value name="field_dim">0</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+  </record>
+</Values>
+</DATA>
+</MAPSET>
+
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/newPattern;1;0">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <value name="xml">yyyy-MM-dd HH:mm:ss.SSS</value>
+  <record name="type" javaclass="com.wm.util.Values">
+    <value name="node_type">field</value>
+    <value name="node_subtype">unknown</value>
+    <value name="is_public">false</value>
+    <value name="field_name">newPattern</value>
+    <value name="field_type">string</value>
+    <value name="field_dim">0</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+  </record>
+</Values>
+</DATA>
+</MAPSET>
+</MAP>
+
+<MAP MODE="INVOKEOUTPUT">
+
+  <!-- nodes -->
+
+<MAPCOPY FROM="/value;1;0" TO="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/InputData;2;0/loan_start_date;1;0">
+</MAPCOPY>
+</MAP>
+</MAPINVOKE>
+</MAP>
+
+<INVOKE TIMEOUT="" SERVICE="HG_Finora.adapters:insertDocment" VALIDATE-IN="$none" VALIDATE-OUT="$none">
+  <COMMENT>---Insert document into document store--</COMMENT>
 
   <!-- nodes -->
 
@@ -764,7 +1164,7 @@
     <value name="node_type">record</value>
     <value name="node_subtype">unknown</value>
     <value name="is_public">false</value>
-    <value name="field_name">getSingleLoanDetailsInput</value>
+    <value name="field_name">insertDocmentInput</value>
     <value name="field_type">record</value>
     <value name="field_dim">0</value>
     <value name="nillable">true</value>
@@ -775,7 +1175,7 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">getSingleLoanDetailsInput</value>
+        <value name="field_name">insertDocmentInput</value>
         <value name="field_type">record</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
@@ -800,6 +1200,28 @@
             <value name="node_type">unknown</value>
             <value name="node_subtype">unknown</value>
             <value name="is_public">false</value>
+            <value name="field_name">document_id</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">unknown</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">document_name</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">unknown</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
             <value name="field_name">user_id</value>
             <value name="field_type">string</value>
             <value name="field_dim">0</value>
@@ -811,9 +1233,43 @@
             <value name="node_type">unknown</value>
             <value name="node_subtype">unknown</value>
             <value name="is_public">false</value>
-            <value name="field_name">document_id</value>
+            <value name="field_name">document_upload_date</value>
             <value name="field_type">string</value>
             <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">unknown</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">document_deletion_date</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">unknown</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">document_short_note</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">unknown</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">document_content</value>
+            <value name="field_type">object</value>
+            <value name="field_dim">0</value>
+            <value name="wrapper_type">byte []</value>
             <value name="nillable">true</value>
             <value name="form_qualified">false</value>
             <value name="is_global">false</value>
@@ -872,13 +1328,25 @@
 
   <!-- nodes -->
 
+<MAPCOPY FROM="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/uuid;1;0" TO="/insertDocmentInput;2;0/document_id;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/InputData;2;0/fileName;1;0" TO="/insertDocmentInput;2;0/document_name;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/InputData;2;0/userID;1;0" TO="/insertDocmentInput;2;0/user_id;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/fileContentInBytes;3;0" TO="/insertDocmentInput;2;0/document_content;3.10;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/currentDateString;1;0" TO="/insertDocmentInput;2;0/document_upload_date;1;0">
+</MAPCOPY>
+
 <MAPCOPY FROM="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/configProperty;2;0/jdbcConnection;1;0" TO="/$connectionName;1;0">
 </MAPCOPY>
 
-<MAPCOPY FROM="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/InputData;2;0/userID;1;0" TO="/getSingleLoanDetailsInput;2;0/user_id;1;0">
-</MAPCOPY>
-
-<MAPCOPY FROM="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/InputData;2;0/documentId;1;0" TO="/getSingleLoanDetailsInput;2;0/document_id;1;0">
+<MAPCOPY FROM="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/InputData;2;0/loanDescription;1;0" TO="/insertDocmentInput;2;0/document_short_note;1;0">
 </MAPCOPY>
 </MAP>
 
@@ -900,13 +1368,35 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">getSingleLoanDetailsInput</value>
+        <value name="field_name">insertDocmentInput</value>
         <value name="field_type">record</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
         <array name="rec_fields" type="record" depth="1">
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">unknown</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">document_id</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">unknown</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">document_name</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
           <record javaclass="com.wm.util.Values">
             <value name="node_type">unknown</value>
             <value name="node_subtype">unknown</value>
@@ -922,9 +1412,32 @@
             <value name="node_type">unknown</value>
             <value name="node_subtype">unknown</value>
             <value name="is_public">false</value>
-            <value name="field_name">document_id</value>
+            <value name="field_name">document_upload_date</value>
             <value name="field_type">string</value>
             <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">unknown</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">document_short_note</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">unknown</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">document_content</value>
+            <value name="field_type">object</value>
+            <value name="field_dim">0</value>
+            <value name="wrapper_type">byte []</value>
             <value name="nillable">true</value>
             <value name="form_qualified">false</value>
             <value name="is_global">false</value>
@@ -960,7 +1473,7 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">getSingleLoanDetailsOutput</value>
+        <value name="field_name">insertDocmentOutput</value>
         <value name="field_type">record</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
@@ -982,7 +1495,7 @@
     <value name="node_type">record</value>
     <value name="node_subtype">unknown</value>
     <value name="is_public">false</value>
-    <value name="field_name">getSingleLoanDetailsOutput</value>
+    <value name="field_name">insertDocmentOutput</value>
     <value name="field_type">record</value>
     <value name="field_dim">0</value>
     <value name="nillable">true</value>
@@ -997,7 +1510,7 @@
 
   <!-- nodes -->
 
-<MAPDELETE FIELD="/getSingleLoanDetailsInput;2;0">
+<MAPDELETE FIELD="/insertDocmentInput;2;0">
 </MAPDELETE>
 
 <MAPDELETE FIELD="/$connectionName;1;0">
@@ -1005,17 +1518,18 @@
 </MAP>
 </INVOKE>
 
-<BRANCH TIMEOUT="" SWITCH="/getSingleLoanDetailsOutput/results[0]/loan_reference_number">
-  <COMMENT>--Check if this document is belongs to any Loan--</COMMENT>
+<BRANCH TIMEOUT="" LABELEXPRESSIONS="true">
+  <COMMENT></COMMENT>
 
   <!-- nodes -->
 
-<INVOKE NAME="/.+/" TIMEOUT="" SERVICE="pub.flow:throwExceptionForRetry" VALIDATE-IN="$none" VALIDATE-OUT="$none">
-  <COMMENT>--Throw exception for retry--</COMMENT>
+<SEQUENCE NAME="%insertDocmentOutput/count%>0" TIMEOUT="" EXIT-ON="FAILURE">
+  <COMMENT>--Insertion is successfull--</COMMENT>
 
   <!-- nodes -->
 
-<MAP MODE="INPUT">
+<MAP TIMEOUT="" MODE="STANDALONE">
+  <COMMENT>--Build loan payload--</COMMENT>
   <MAPTARGET>
 
 <Values version="2.0">
@@ -1023,7 +1537,6 @@
     <value name="node_type">record</value>
     <value name="node_subtype">unknown</value>
     <value name="is_public">false</value>
-    <value name="field_name">throwExceptionForRetryInput</value>
     <value name="field_type">record</value>
     <value name="field_dim">0</value>
     <value name="nillable">true</value>
@@ -1031,28 +1544,31 @@
     <value name="is_global">false</value>
     <array name="rec_fields" type="record" depth="1">
       <record javaclass="com.wm.util.Values">
-        <value name="node_type">field</value>
+        <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">wrappedException</value>
-        <value name="field_type">object</value>
+        <value name="field_name">LocalPipelineAttributes</value>
+        <value name="field_type">recref</value>
         <value name="field_dim">0</value>
-        <value name="field_opt">true</value>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">HG_Finora.docs:LocalPipelineAttributes</value>
       </record>
       <record javaclass="com.wm.util.Values">
-        <value name="node_type">field</value>
+        <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">message</value>
-        <value name="field_type">string</value>
+        <value name="field_name">insertDocmentOutput</value>
+        <value name="field_type">record</value>
         <value name="field_dim">0</value>
-        <value name="field_opt">true</value>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
+        <array name="rec_fields" type="record" depth="1">
+        </array>
+        <value name="modifiable">true</value>
       </record>
     </array>
     <value name="modifiable">true</value>
@@ -1072,6 +1588,33 @@
     <value name="form_qualified">false</value>
     <value name="is_global">false</value>
     <array name="rec_fields" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">LocalPipelineAttributes</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">HG_Finora.docs:LocalPipelineAttributes</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">insertDocmentOutput</value>
+        <value name="field_type">record</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <array name="rec_fields" type="record" depth="1">
+        </array>
+        <value name="modifiable">true</value>
+      </record>
     </array>
     <value name="modifiable">true</value>
   </record>
@@ -1080,16 +1623,47 @@
 
   <!-- nodes -->
 
-<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/message;1;0">
+<MAPINVOKE SERVICE="pub.datetime:increment" VALIDATE-IN="$none" VALIDATE-OUT="$none" INVOKE-ORDER="0">
+
+  <!-- nodes -->
+
+<MAP MODE="INVOKEINPUT">
+
+  <!-- nodes -->
+
+<MAPCOPY FROM="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/InputData;2;0/loan_start_date;1;0" TO="/startDate;1;0">
+</MAPCOPY>
+
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/startDatePattern;1;0">
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
-  <value name="xml">Oops! this document is belongs to a loan so it can't be deleted.</value>
+  <value name="xml">yyyy-MM-dd HH:mm:ss.SSS</value>
   <record name="type" javaclass="com.wm.util.Values">
     <value name="node_type">field</value>
     <value name="node_subtype">unknown</value>
     <value name="is_public">false</value>
-    <value name="field_name">message</value>
+    <value name="field_name">startDatePattern</value>
+    <value name="field_type">string</value>
+    <value name="field_dim">0</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+  </record>
+</Values>
+</DATA>
+</MAPSET>
+
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/endDatePattern;1;0">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <value name="xml">yyyy-MM-dd HH:mm:ss.SSS</value>
+  <record name="type" javaclass="com.wm.util.Values">
+    <value name="node_type">field</value>
+    <value name="node_subtype">unknown</value>
+    <value name="is_public">false</value>
+    <value name="field_name">endDatePattern</value>
     <value name="field_type">string</value>
     <value name="field_dim">0</value>
     <value name="field_opt">true</value>
@@ -1100,95 +1674,23 @@
 </Values>
 </DATA>
 </MAPSET>
+
+<MAPCOPY FROM="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/InputData;2;0/tenure_in_months;1;0" TO="/addMonths;1;0">
+</MAPCOPY>
 </MAP>
 
-<MAP MODE="OUTPUT">
-  <MAPTARGET>
-
-<Values version="2.0">
-  <record name="xml" javaclass="com.wm.util.Values">
-    <value name="node_type">record</value>
-    <value name="node_subtype">unknown</value>
-    <value name="is_public">false</value>
-    <value name="field_type">record</value>
-    <value name="field_dim">0</value>
-    <value name="nillable">true</value>
-    <value name="form_qualified">false</value>
-    <value name="is_global">false</value>
-    <array name="rec_fields" type="record" depth="1">
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">record</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
-        <value name="field_name">LocalPipelineAttributes</value>
-        <value name="field_type">recref</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-        <value name="modifiable">true</value>
-        <value name="rec_ref">HG_Finora.docs:LocalPipelineAttributes</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">unknown</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
-        <value name="field_name">message</value>
-        <value name="field_type">string</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">record</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
-        <value name="field_name">getSingleLoanDetailsOutput</value>
-        <value name="field_type">record</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-        <array name="rec_fields" type="record" depth="1">
-        </array>
-        <value name="modifiable">true</value>
-      </record>
-    </array>
-    <value name="modifiable">true</value>
-  </record>
-</Values>
-</MAPTARGET>
-  <MAPSOURCE>
-
-<Values version="2.0">
-  <record name="xml" javaclass="com.wm.util.Values">
-    <value name="node_type">record</value>
-    <value name="node_subtype">unknown</value>
-    <value name="is_public">false</value>
-    <value name="field_type">record</value>
-    <value name="field_dim">0</value>
-    <value name="nillable">true</value>
-    <value name="form_qualified">false</value>
-    <value name="is_global">false</value>
-    <array name="rec_fields" type="record" depth="1">
-    </array>
-    <value name="modifiable">true</value>
-  </record>
-</Values>
-</MAPSOURCE>
+<MAP MODE="INVOKEOUTPUT">
 
   <!-- nodes -->
 
-<MAPDELETE FIELD="/message;1;0">
-</MAPDELETE>
+<MAPCOPY FROM="/endDate;1;0" TO="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/loanEndDate;1;0">
+</MAPCOPY>
 </MAP>
-</INVOKE>
-</BRANCH>
-</SEQUENCE>
+</MAPINVOKE>
+</MAP>
 
-<INVOKE TIMEOUT="" SERVICE="HG_Finora.adapters:deleteDocument" VALIDATE-IN="$none" VALIDATE-OUT="$none">
-  <COMMENT>--Delete document--</COMMENT>
+<INVOKE TIMEOUT="" SERVICE="HG_Finora.adapters:registerLoan" VALIDATE-IN="$none" VALIDATE-OUT="$none">
+  <COMMENT>--Register Loan--</COMMENT>
 
   <!-- nodes -->
 
@@ -1200,7 +1702,7 @@
     <value name="node_type">record</value>
     <value name="node_subtype">unknown</value>
     <value name="is_public">false</value>
-    <value name="field_name">deleteDocumentInput</value>
+    <value name="field_name">registerLoanInput</value>
     <value name="field_type">record</value>
     <value name="field_dim">0</value>
     <value name="nillable">true</value>
@@ -1211,7 +1713,7 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">deleteDocumentInput</value>
+        <value name="field_name">registerLoanInput</value>
         <value name="field_type">record</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
@@ -1236,7 +1738,7 @@
             <value name="node_type">unknown</value>
             <value name="node_subtype">unknown</value>
             <value name="is_public">false</value>
-            <value name="field_name">document_id</value>
+            <value name="field_name">loan_reference_number</value>
             <value name="field_type">string</value>
             <value name="field_dim">0</value>
             <value name="nillable">true</value>
@@ -1248,6 +1750,94 @@
             <value name="node_subtype">unknown</value>
             <value name="is_public">false</value>
             <value name="field_name">user_id</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">unknown</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">document_id</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">unknown</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">loan_taken_date</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">unknown</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">loan_end_date</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">unknown</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">emi_date</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">unknown</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">tenure_in_months</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">unknown</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">emi_amount</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">unknown</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">total_money_taken</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">unknown</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">loandescription</value>
             <value name="field_type">string</value>
             <value name="field_dim">0</value>
             <value name="nillable">true</value>
@@ -1304,7 +1894,7 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">getSingleLoanDetailsOutput</value>
+        <value name="field_name">insertDocmentOutput</value>
         <value name="field_type">record</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
@@ -1325,10 +1915,34 @@
 <MAPCOPY FROM="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/configProperty;2;0/jdbcConnection;1;0" TO="/$connectionName;1;0">
 </MAPCOPY>
 
-<MAPCOPY FROM="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/InputData;2;0/documentId;1;0" TO="/deleteDocumentInput;2;0/document_id;1;0">
+<MAPCOPY FROM="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/uuid;1;0" TO="/registerLoanInput;2;0/document_id;1;0">
 </MAPCOPY>
 
-<MAPCOPY FROM="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/InputData;2;0/userID;1;0" TO="/deleteDocumentInput;2;0/user_id;1;0">
+<MAPCOPY FROM="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/InputData;2;0/userID;1;0" TO="/registerLoanInput;2;0/user_id;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/InputData;2;0/loan_reference_number;1;0" TO="/registerLoanInput;2;0/loan_reference_number;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/InputData;2;0/emi_date;1;0" TO="/registerLoanInput;2;0/emi_date;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/InputData;2;0/tenure_in_months;1;0" TO="/registerLoanInput;2;0/tenure_in_months;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/InputData;2;0/emi_amount;1;0" TO="/registerLoanInput;2;0/emi_amount;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/InputData;2;0/total_money_taken;1;0" TO="/registerLoanInput;2;0/total_money_taken;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/InputData;2;0/loanDescription;1;0" TO="/registerLoanInput;2;0/loandescription;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/loanEndDate;1;0" TO="/registerLoanInput;2;0/loan_end_date;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/InputData;2;0/loan_start_date;1;0" TO="/registerLoanInput;2;0/loan_taken_date;1;0">
 </MAPCOPY>
 </MAP>
 
@@ -1350,13 +1964,35 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">deleteDocumentInput</value>
+        <value name="field_name">registerLoanInput</value>
         <value name="field_type">record</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
         <array name="rec_fields" type="record" depth="1">
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">unknown</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">loan_reference_number</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">unknown</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">user_id</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
           <record javaclass="com.wm.util.Values">
             <value name="node_type">unknown</value>
             <value name="node_subtype">unknown</value>
@@ -1372,7 +2008,73 @@
             <value name="node_type">unknown</value>
             <value name="node_subtype">unknown</value>
             <value name="is_public">false</value>
-            <value name="field_name">user_id</value>
+            <value name="field_name">loan_taken_date</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">unknown</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">loan_end_date</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">unknown</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">emi_date</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">unknown</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">tenure_in_months</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">unknown</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">emi_amount</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">unknown</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">total_money_taken</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">unknown</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">loandescription</value>
             <value name="field_type">string</value>
             <value name="field_dim">0</value>
             <value name="nillable">true</value>
@@ -1410,7 +2112,7 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">getSingleLoanDetailsOutput</value>
+        <value name="field_name">insertDocmentOutput</value>
         <value name="field_type">record</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
@@ -1424,7 +2126,7 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">deleteDocumentOutput</value>
+        <value name="field_name">registerLoanOutput</value>
         <value name="field_type">record</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
@@ -1446,7 +2148,7 @@
     <value name="node_type">record</value>
     <value name="node_subtype">unknown</value>
     <value name="is_public">false</value>
-    <value name="field_name">deleteDocumentOutput</value>
+    <value name="field_name">registerLoanOutput</value>
     <value name="field_type">record</value>
     <value name="field_dim">0</value>
     <value name="nillable">true</value>
@@ -1461,16 +2163,16 @@
 
   <!-- nodes -->
 
-<MAPDELETE FIELD="/$connectionName;1;0">
+<MAPDELETE FIELD="/registerLoanInput;2;0">
 </MAPDELETE>
 
-<MAPDELETE FIELD="/deleteDocumentInput;2;0">
+<MAPDELETE FIELD="/$connectionName;1;0">
 </MAPDELETE>
 </MAP>
 </INVOKE>
 
 <MAP TIMEOUT="" MODE="STANDALONE">
-  <COMMENT>--Map success response--</COMMENT>
+  <COMMENT>--Map response--</COMMENT>
   <MAPTARGET>
 
 <Values version="2.0">
@@ -1501,7 +2203,7 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">getSingleLoanDetailsOutput</value>
+        <value name="field_name">insertDocmentOutput</value>
         <value name="field_type">record</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
@@ -1515,7 +2217,7 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">deleteDocumentOutput</value>
+        <value name="field_name">registerLoanOutput</value>
         <value name="field_type">record</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
@@ -1550,6 +2252,34 @@
 </MAPSOURCE>
 
   <!-- nodes -->
+
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/httpStatusCode;1;0">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <value name="xml">200</value>
+  <record name="type" javaclass="com.wm.util.Values">
+    <value name="node_type">record</value>
+    <value name="node_subtype">unknown</value>
+    <value name="node_comment"></value>
+    <record name="node_hints" javaclass="com.wm.util.Values">
+      <value name="field_usereditable">true</value>
+      <value name="field_largerEditor">false</value>
+      <value name="field_password">false</value>
+    </record>
+    <value name="is_public">false</value>
+    <value name="field_name">httpStatusCode</value>
+    <value name="field_type">string</value>
+    <value name="field_dim">0</value>
+    <array name="field_options" type="value" depth="1">
+    </array>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+  </record>
+</Values>
+</DATA>
+</MAPSET>
 
 <MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/isSuccessFlag;1;0">
   <DATA ENCODING="XMLValues" I18N="true">
@@ -1581,39 +2311,11 @@
 </DATA>
 </MAPSET>
 
-<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/httpStatusCode;1;0">
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="true" GLOBALVARIABLES="false" FIELD="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/commonSuccessResponse;2;0/message;1;0">
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
-  <value name="xml">200</value>
-  <record name="type" javaclass="com.wm.util.Values">
-    <value name="node_type">record</value>
-    <value name="node_subtype">unknown</value>
-    <value name="node_comment"></value>
-    <record name="node_hints" javaclass="com.wm.util.Values">
-      <value name="field_usereditable">true</value>
-      <value name="field_largerEditor">false</value>
-      <value name="field_password">false</value>
-    </record>
-    <value name="is_public">false</value>
-    <value name="field_name">httpStatusCode</value>
-    <value name="field_type">string</value>
-    <value name="field_dim">0</value>
-    <array name="field_options" type="value" depth="1">
-    </array>
-    <value name="nillable">true</value>
-    <value name="form_qualified">false</value>
-    <value name="is_global">false</value>
-  </record>
-</Values>
-</DATA>
-</MAPSET>
-
-<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/LocalPipelineAttributes;4;0;HG_Finora.docs:LocalPipelineAttributes/commonSuccessResponse;2;0/message;1;0">
-  <DATA ENCODING="XMLValues" I18N="true">
-
-<Values version="2.0">
-  <value name="xml">Document deleted successfully!</value>
+  <value name="xml">Loan with reference number : %LocalPipelineAttributes/InputData/loan_reference_number% has been registered successfully!</value>
   <record name="type" javaclass="com.wm.util.Values">
     <value name="node_type">record</value>
     <value name="node_subtype">unknown</value>
@@ -1838,7 +2540,7 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">getSingleLoanDetailsOutput</value>
+        <value name="field_name">insertDocmentOutput</value>
         <value name="field_type">record</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
@@ -1852,7 +2554,7 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">deleteDocumentOutput</value>
+        <value name="field_name">registerLoanOutput</value>
         <value name="field_type">record</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
@@ -1940,7 +2642,7 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">getSingleLoanDetailsOutput</value>
+        <value name="field_name">insertDocmentOutput</value>
         <value name="field_type">record</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
@@ -1965,7 +2667,7 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">deleteDocumentOutput</value>
+        <value name="field_name">registerLoanOutput</value>
         <value name="field_type">record</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
@@ -2038,9 +2740,11 @@
 </MAP>
 </INVOKE>
 </SEQUENCE>
+</BRANCH>
+</SEQUENCE>
 
 <SEQUENCE TIMEOUT="" EXIT-ON="FAILURE" FORM="CATCH">
-  <COMMENT>--Catch block--</COMMENT>
+  <COMMENT>--Catch Block--</COMMENT>
 
   <!-- nodes -->
 
@@ -2080,7 +2784,7 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">getSingleLoanDetailsOutput</value>
+        <value name="field_name">insertDocmentOutput</value>
         <value name="field_type">record</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
@@ -2094,7 +2798,7 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">deleteDocumentOutput</value>
+        <value name="field_name">registerLoanOutput</value>
         <value name="field_type">record</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
@@ -2152,7 +2856,7 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">getSingleLoanDetailsOutput</value>
+        <value name="field_name">insertDocmentOutput</value>
         <value name="field_type">record</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
@@ -2166,7 +2870,7 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">deleteDocumentOutput</value>
+        <value name="field_name">registerLoanOutput</value>
         <value name="field_type">record</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
@@ -2459,7 +3163,7 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">getSingleLoanDetailsOutput</value>
+        <value name="field_name">insertDocmentOutput</value>
         <value name="field_type">record</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
@@ -2473,7 +3177,7 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">deleteDocumentOutput</value>
+        <value name="field_name">registerLoanOutput</value>
         <value name="field_type">record</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
@@ -2574,7 +3278,7 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">getSingleLoanDetailsOutput</value>
+        <value name="field_name">insertDocmentOutput</value>
         <value name="field_type">record</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
@@ -2599,7 +3303,7 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">deleteDocumentOutput</value>
+        <value name="field_name">registerLoanOutput</value>
         <value name="field_type">record</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
@@ -2623,6 +3327,17 @@
         <value name="rec_ref">pub.event:exceptionInfo</value>
       </record>
       <record javaclass="com.wm.util.Values">
+        <value name="node_type">field</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">jsonString</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
@@ -2635,17 +3350,6 @@
         <array name="rec_fields" type="record" depth="1">
         </array>
         <value name="modifiable">true</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">field</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
-        <value name="field_name">jsonString</value>
-        <value name="field_type">string</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
       </record>
     </array>
     <value name="modifiable">true</value>

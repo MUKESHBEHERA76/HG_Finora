@@ -51,4 +51,19 @@
     <record name="portMap" javaclass="com.wm.util.Values">
     </record>
   </record>
+  <record name="registerLoan" javaclass="com.wm.util.Values">
+    <value name="urlPath">restV2/HG_Finora:http/registerLoan</value>
+    <record name="portMap" javaclass="com.wm.util.Values">
+    </record>
+  </record>
+  <record name="getLoans" javaclass="com.wm.util.Values">
+    <value name="urlPath">restV2/HG_Finora:http/getLoans</value>
+    <record name="portMap" javaclass="com.wm.util.Values">
+    </record>
+  </record>
+  <record name="forcloseLoan" javaclass="com.wm.util.Values">
+    <value name="urlPath">restV2/HG_Finora:http/forcloseLoan</value>
+    <record name="portMap" javaclass="com.wm.util.Values">
+    </record>
+  </record>
 </Values>

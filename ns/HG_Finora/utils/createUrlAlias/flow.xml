@@ -81,7 +81,10 @@ restV2/HG_Finora:http/getDashboardInfo
 restV2/HG_Finora:http/uploadDoc
 restV2/HG_Finora:http/fetchDoc
 restV2/HG_Finora:http/deleteDoc
-restV2/HG_Finora:http/updateDoc</value>
+restV2/HG_Finora:http/updateDoc
+restV2/HG_Finora:http/registerLoan
+restV2/HG_Finora:http/getLoans
+restV2/HG_Finora:http/forcloseLoan</value>
   <record name="type" javaclass="com.wm.util.Values">
     <value name="node_type">unknown</value>
     <value name="node_subtype">unknown</value>
@@ -110,7 +113,10 @@ getDashboardInfo
 uploadDoc
 fetchDoc
 deleteDoc
-updateDoc</value>
+updateDoc
+registerLoan
+getLoans
+forcloseLoan</value>
   <record name="type" javaclass="com.wm.util.Values">
     <value name="node_type">unknown</value>
     <value name="node_subtype">unknown</value>
